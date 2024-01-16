@@ -52,7 +52,7 @@ It would be great if you :link: put a link to my template if you use this reposi
 
 ## Resources
 
-The following code is derived from the pytorch original transformer 
+The following code is derived from the pytorch-original-transformer 
 ```
 @misc{Gordić2020PyTorchOriginalTransformer,
   author = {Gordić, Aleksa},
