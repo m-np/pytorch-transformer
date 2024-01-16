@@ -52,7 +52,7 @@ It would be great if you :link: put a link to my template if you use this reposi
 
 ## Resources
 
-<p align = "justify">:card_index: The following code is derived from the pytorch original transformer 
+<p align = "justify">:card_index: The following code is derived from the pytorch original transformer <br>
   <code> 
     @misc{Gordić2020PyTorchOriginalTransformer,
     author = {Gordić, Aleksa},
