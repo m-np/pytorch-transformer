@@ -52,4 +52,11 @@ It would be great if you :link: put a link to my template if you use this reposi
 
 ## Resources
 
-<p align = "justify">:card_index: Documentation and/or Resources for your codes, and other mentions can be included in this section! :key:</p>
+<p align = "justify">:card_index: The following code is derived from the pytorch original transformer @misc{Gordić2020PyTorchOriginalTransformer,
+  author = {Gordić, Aleksa},
+  title = {pytorch-original-transformer},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/gordicaleksa/pytorch-original-transformer}},
+} :key:</p>
