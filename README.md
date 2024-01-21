@@ -65,3 +65,5 @@ The following code is derived from the pytorch-original-transformer
   howpublished = {\url{https://github.com/gordicaleksa/pytorch-original-transformer}},
 }
 ```
+
+and using the following [blog](https://medium.com/@hunter-j-phillips/putting-it-all-together-the-implemented-transformer-bfb11ac1ddfe)
