@@ -3,7 +3,7 @@
   <a href="https://github.com/m-np/pytorch-transformer/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/m-np/pytorch-transformer?logo=git&style=plastic"></a>
   <a href="https://github.com/m-np/pytorch-transformer/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/m-np/pytorch-transformer?style=plastic&logo=github"></a>
   <a href="https://github.com/m-np/pytorch-transformer/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/m-np/pytorch-transformer?style=plastic&logo=github"></a>
-  <a href="https://makeapullrequest.com/"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic&logo=open-source-initiative"></a>
+  <a href="https://github.com/m-np/pytorch-transformer/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic&logo=open-source-initiative"></a>
 </h1>
 
 <div align = "justify">
