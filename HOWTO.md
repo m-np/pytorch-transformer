@@ -18,8 +18,9 @@ The template provides a minimal approach for getting started with an AI/ML proje
 │   ├───images      : save output images
 │   └───savedmodels : save trained model files
 │
-├───src             : source directory
-│   └───models      : directory containing model definations
+├───src                         : source directory
+|   ├───data_preprocessing      : directory containing data preprocessing scripts
+│   └───models                  : directory containing model definations
 │
 └───utils           : utilities directory containing functions and/or submodules
 ```
