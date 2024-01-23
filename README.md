@@ -46,6 +46,38 @@ For other module installation, please follow the following steps:
 2. Run `conda activate <env_name>`
 3. Run `pip install -r requirements.txt` found 👉 [`requirements.txt`](./requirements.txt)
 
+-----
+
+## Description 
+
+The model is trained on the Kaggle [Multi30K dataset](https://www.kaggle.com/datasets/devanshusingh/machine-translation-dataset-de-en) and the notebook used for training the data is found [here](./notebooks/training-nw-nb.ipynb)
+
+This model takes the following arguments as represented in the paper.
+
+```
+'dk': key dimensions -> 32,
+'dv': value dimensions -> 32,
+'h': Number of parallel attention heads -> 8,
+'src_vocab_size': source vocabulary size (German) -> 8500,
+'target_vocab_size': target vocabulary size (English) -> 6500,
+'src_pad_idx': Source pad index -> 2,
+'target_pad_idx': Target pad index -> 2,
+'num_encoders': Number of encoder modules -> 3,
+'num_decoders': Number of decoder modules -> 3,
+'dim_multiplier': Dimension multiplier for inner dimensions in pointwise FFN (dff = dk*h*dim_multiplier) -> 4,
+'pdropout': Dropout probability in the network -> 0.1,
+'lr': learning rate used to train the model -> 0.0003,
+'N_EPOCHS': Number of Epochs -> 50,
+'CLIP': 1,
+'patience': 5
+```
+We use Adam Optimizer along with CrossEntropyLoss to train the model.
+
+We tested the performance of the model on 1000 held-out test data and observed a Bleu score of 30.8
+
+### Hugging Face
+The trained model can also be found in the [huggingface repo](https://huggingface.co/Rzoro/Transformer_de_en_multi30K)
+
 
 ## LICENSE 
 
