@@ -8,7 +8,7 @@
 
 <div align = "justify">
 
-**Objective:** This project contains my work on building a transformer from scratch for an English-to-German translation. <br>
+**Objective:** This project contains my work on building a transformer from scratch for an German-to-English translation. <br>
 This project uses <a href = "https://github.com/gordicaleksa/pytorch-original-transformer/tree/main">pytorch-original-transformer</a> work to understand the inner workings of the transformer and how to build it from scratch. Along with the implementation, we are referring to the <a href = "https://arxiv.org/abs/1706.03762">original paper</a> to study transformers.<br>
 To understand the repo, check the [**HOWTO.md**](./HOWTO.md) file.
 
