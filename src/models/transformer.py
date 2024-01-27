@@ -1,10 +1,9 @@
-
 # torch packages
 import torch
 import torch.nn as nn
 from decoder import Decoder
 from encoder import Encoder
-from sublayers import (Embedding, PositionalEncoding)
+from sublayers import Embedding, PositionalEncoding
 
 
 class Transformer(nn.Module):

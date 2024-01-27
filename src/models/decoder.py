@@ -1,7 +1,6 @@
-
 # torch packages
 import torch.nn as nn
-from sublayers import (MultiHeadAttention, PositionwiseFeedForward)
+from sublayers import MultiHeadAttention, PositionwiseFeedForward
 from torch import Tensor
 
 
